@@ -1,0 +1,26 @@
+@import "../global.scss";
+
+.header-container {
+   display: flex;
+   background-color: $white-color;
+   font-family: $secondary-font;
+   padding: 1.25rem;
+}
+
+.header {
+   a {
+      margin-right: 7.1875rem;
+   }
+}
+
+.logo {
+   a {
+      margin-right: 26.6875rem;
+   }
+}
+
+.icons{
+   a {
+      margin-right: 1.625rem;
+   }
+}
