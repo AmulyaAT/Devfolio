@@ -2,6 +2,7 @@ import React from "react";
 import './_Header.scss'
 const Header=()=>{
     return (
+        <div>
         <header className="header-container">
             <div className="logo">
             <a href="" >Logo</a>
@@ -17,7 +18,10 @@ const Header=()=>{
                 <a href="">i</a>
                 <a href="">i</a>
             </div>
+            
         </header>
+        <hr style={{ border: "0.001rem solid #e03400"}}/>
+        </div>
     )
 }
 export default Header

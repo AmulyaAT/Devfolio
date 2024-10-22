@@ -1,0 +1,63 @@
+@import "../global.scss";
+
+.main-container {
+    color: $main-font-color;
+    background-color: $background-color ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;              
+    justify-content: center;          
+    min-height: 50vh;                
+    padding: 16px;
+    img{
+        display: block;
+        width: 700px;
+        height: 450px;
+    }
+}
+
+.name{
+    margin-top: 50px;
+    font-family:$main-font;
+    /* Font & Text */
+    font-size: 136px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    line-height: 163.2px;
+    text-align: center;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+    word-spacing: 0px;
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+
+.para{
+    font-family: $normal-font;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
