@@ -1,0 +1,49 @@
+@import "../global.scss";
+
+.project-container{
+    background-color: $secondary-background-color;
+    padding: 10rem;
+    
+  
+}
+
+.heading h3{
+        /* Font & Text */
+        font-family: Unbounded, "Unbounded Placeholder", sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-variant: normal;
+        letter-spacing: normal;
+        line-height: 50.4px;
+        text-decoration: none solid rgb(224, 52, 0);
+        text-align: start;
+        text-indent: 0px;
+        text-transform: none;
+        white-space: pre;
+        word-spacing: 0px;
+        color: rgb(224, 52, 0);
+    
+}
+
+.heading p{
+    text-align: start;
+        /* Font & Text */
+        font-family: "Instrument Sans", "Instrument Sans Placeholder", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 22.4px;
+        text-decoration: none solid rgb(0, 17, 34);
+        text-align: start;
+        text-indent: 0px;
+        text-transform: none;
+        white-space: pre-wrap;
+        word-spacing: 0px;
+}
+
+.projectone{
+    margin: auto;
+    
+}
