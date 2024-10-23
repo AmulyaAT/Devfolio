@@ -1,0 +1,36 @@
+@import "../global.scss";
+
+.projectfour-container{
+    background-color:$background-color;
+    font-family: $secondary-font;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $main-font-color;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.link{
+    img{
+        height: 20rem;
+        width: 50rem;
+    }
+    
+}
+
+.projecttitlefour{
+    font-weight: bolder;
+}
+
+
+.projlink{
+    img{
+        height: 20rem;
+        width: 50rem;
+    }
+}
+
+.projecttitlefive{
+    font-weight: bolder;
+}
