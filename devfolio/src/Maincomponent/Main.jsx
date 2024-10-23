@@ -5,7 +5,7 @@ const Main=()=>{
     return(
         <div className="main-container">
             <div className="name">
-            <h1> AMULYA A T</h1>
+            <h1> Amulya A T</h1>
         </div>
         <div className="para">
             <p>Lorem ipsum dolor sit Possimus dolo Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.

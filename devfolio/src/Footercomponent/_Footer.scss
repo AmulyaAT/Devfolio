@@ -1,0 +1,35 @@
+@import "../global.scss";
+
+.footer-container{
+    font-family: $secondary-font;
+    color: $background-color;
+    background-color: $main-font-color;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logos{
+    height:auto; //ammu remember to change it to fit logo 
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.mail{
+   cursor: pointer;
+
+   &:hover{
+      color: $secondary-color;
+   }
+}
+
+.copy{
+    cursor: pointer;
+    &:hover{
+       color: $secondary-color;
+    }
+}
