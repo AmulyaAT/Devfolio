@@ -5,12 +5,14 @@ import Main from './Maincomponent/Main';
 import Projectone from "./Projectcomponent/Projectone";
 import Projectfour from './Projectcomponent/Projectthree';
 import Projecttwo from './Projectcomponent/Projecttwo';
+import Skills from './Skillscomponent/Skills';
 
 function App() {
   return (
     <>
     <Header/>
     <Main/>
+    <Skills/>
     <Projectone/>
     <Projecttwo/>
     <Projectfour/>
