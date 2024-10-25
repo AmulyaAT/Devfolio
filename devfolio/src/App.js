@@ -7,6 +7,7 @@ import Projectfour from './Projectcomponent/Projectthree';
 import Projecttwo from './Projectcomponent/Projecttwo';
 import Skills from './Skillscomponent/Skills';
 import Certificate from './Certificationscomponent/Certificate';
+import Contact from './Contactformcomponent/Contactme';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Projecttwo/>
     <Projectfour/>
     <Certificate/>
+    <Contact/>
     <Footer/>
     </>
   );
