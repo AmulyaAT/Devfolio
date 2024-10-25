@@ -10,7 +10,7 @@ const Skills=()=>{
            <div className="Grid">
            <div className="Skill__one">
                 {/* <Html5TwoTone/> */}
-                <img src="" alt="HTML"/>
+                <img src="./Icons/hhtml.jpg" alt="HTML"/>
                 <img src="" alt="HTML"/>
                 <img src="" alt="CSS"/>
                 <img src="" alt="JS"/>

@@ -1,1 +1,60 @@
-@import "../global.scss"
+@import "../global.scss";
+
+.certificate-container{
+    background-color:$secondary-color;
+    font-family: $secondary-font;
+    color: $footer-color;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.cerificate-title{
+    font-family: $main-font;
+        font-size: 36px;
+        font-style: normal;
+        font-variant: normal;
+        letter-spacing: normal;
+        line-height: 50.4px;
+        text-decoration: none solid rgb(224, 52, 0);
+        text-align: start;
+        text-indent: 0px;
+        text-transform: none;
+        white-space: pre;
+        word-spacing: 0px;
+        color: rgb(224, 52, 0);
+        padding: 1rem;
+}
+.main-certificate{
+
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1rem;
+    gap: 1rem;
+    
+    img{
+        height: 20rem;
+        width: 30rem;
+    }
+    h3{
+        font-weight: bold;
+    }
+}
+
+.certificate{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+
+    img{
+        height: 10rem;
+        width: 10rem;
+    }
+
+    h3{
+        font-weight: bold;
+    }
+}
