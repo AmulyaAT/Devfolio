@@ -1,0 +1,53 @@
+@import "../global.scss";
+
+
+@media (min-width: 360px) and (max-width: 1366px) {
+    .header-container {
+        display: flex;
+        background-color: $white-color;
+        padding: 1rem;
+        color:$main-font-color;
+    }
+
+    .header {
+        a{
+            margin-right: 5rem;
+        }
+    }
+    .logo{
+        a{
+            margin-right: 10rem;
+        }
+    }
+    .icons{
+        a{
+            margin-right: 1.5rem;
+        }
+    }
+}
+
+@media (min-width : 360px) and (max-width:740px){
+
+    .header-container {
+        display: flex;
+        background-color: $white-color;
+        padding: 0.5rem;
+        color: $main-font-color;
+    }
+
+    .header{
+        a{
+            margin-right: 3rem;
+        }
+    }
+    .logo{
+        a{
+            margin-right: 5rem;
+        }
+    }
+    .icons{
+        a{
+            margin-right: 1rem;
+        }
+    }
+}

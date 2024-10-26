@@ -1,5 +1,6 @@
 import React from "react";
 import './_Header.scss'
+import "./_Mediaheader.scss";
 const Header=()=>{
     return (
         <div>

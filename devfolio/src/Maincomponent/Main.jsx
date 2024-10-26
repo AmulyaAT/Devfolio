@@ -1,6 +1,5 @@
 import React from "react";
 import "../Maincomponent/_Main.scss"
-
 const Main=()=>{
     return(
         <div className="main-container">
