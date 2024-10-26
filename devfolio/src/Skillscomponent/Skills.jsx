@@ -1,6 +1,16 @@
 import React from "react";
 import "./_Skills.scss"
-import { Html5TwoTone } from "@ant-design/icons"
+import html from "./Icons/html.svg"
+import css from "./Icons/css.svg"
+import javascript from "./Icons/javascript.svg"
+import antd from "./Icons/antd.svg"
+import react from "./Icons/react.svg"
+import typescript from "./Icons/typescript.svg"
+import tailwind from "./Icons/tailwind.svg"
+import redux from "./Icons/redux.svg"
+import figma from "./Icons/figma.svg"
+import github from "./Icons/github.svg"
+
 const Skills=()=>{
     return(
         <div className="Skill-container">
@@ -9,23 +19,22 @@ const Skills=()=>{
             </div>
            <div className="Grid">
            <div className="Skill__one">
-                {/* <Html5TwoTone/> */}
-                <img src="./Icons/hhtml.jpg" alt="HTML"/>
-                <img src="" alt="HTML"/>
-                <img src="" alt="CSS"/>
-                <img src="" alt="JS"/>
+                <img src={html} alt="HTML"/>
+                <img src={css} alt="HTML"/>
+                <img src={javascript} alt="CSS"/>
+                <img src={typescript} alt="JS"/>
             </div>
             <div className="Skill__two">
-                <img src="" alt="TS"/>
-                <img src="" alt="REACT"/>
-                <img src="" alt="REDUX"/>
+                <img src={react} alt="TS"/>
+                <img src={redux} alt="REACT"/>
+                <img src={antd} alt="REDUX"/>
             </div>
             <div className="Skill__three">
-            <img src="" alt="TAILWIND"/>
-            <img src="" alt="ANTD"/>
+            <img src={tailwind} alt="TAILWIND"/>
+            <img src={figma} alt="FIGMA"/>
             </div>
             <div className="Skill__four">
-            <img src="" alt="---"/>
+            <img src={github} alt="GITHUB"/>
             </div>
            </div>
         </div>
