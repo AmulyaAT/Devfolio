@@ -1,0 +1,112 @@
+@import "../global.scss";
+
+@media (min-width: 360px) and (max-width:1366px){
+    .main-container{
+        color:$main-font-color;
+        background-color: $background-color ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;              
+    justify-content: center;          
+    min-height: 50vh;                
+    padding: 10px;
+    img{
+        display: block;
+        width: 600px;
+        height: 450px;
+    }
+    }
+    .name{
+        margin-top: 30px;
+        font-family: Unbounded , "Unbounded placeholder" , sans-serif;
+        /* Font & Text */
+        font-size: 50px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 100px;
+        text-align: center;
+        text-indent: 0px;
+        text-transform: none;
+        vertical-align: baseline;
+        white-space: pre-wrap;
+        word-spacing: 0px;
+        /* Color & Background */
+        background-attachment: scroll;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
+        background-position: 0% 0%;
+        background-repeat: repeat;
+    }
+    
+    .para{
+        font-family: $normal-font;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+}
+@media (min-width : 335px) and (max-width : 740px){
+    .main-container{
+        color: $main-font-color;
+    background-color: $background-color ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;              
+    justify-content: center;          
+    min-height: 50vh;                
+    padding: 10px;
+    img{
+        display: block;
+        width: 600px;
+        height: 350px;
+    }
+    }
+    
+.name{
+    margin-top: 50px;
+    font-family: Unbounded , "Unbounded placeholder" , sans-serif;
+    /* Font & Text */
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+    line-height: 16px;
+    text-align: center;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+    word-spacing: 0px;
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+
+.para{
+    font-family: $normal-font;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+}

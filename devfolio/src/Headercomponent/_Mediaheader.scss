@@ -5,28 +5,28 @@
     .header-container {
         display: flex;
         background-color: $white-color;
-        padding: 1rem;
+        padding: 0.5rem;
         color:$main-font-color;
     }
 
     .header {
         a{
-            margin-right: 5rem;
+            margin-right: 4rem;
         }
     }
     .logo{
         a{
-            margin-right: 10rem;
+            margin-right: 7rem;
         }
     }
     .icons{
         a{
-            margin-right: 1.5rem;
+            margin-right: 1rem;
         }
     }
 }
 
-@media (min-width : 360px) and (max-width:740px){
+@media (min-width : 335px) and (max-width:740px){
 
     .header-container {
         display: flex;
@@ -37,12 +37,12 @@
 
     .header{
         a{
-            margin-right: 3rem;
+            margin-right: 2rem;
         }
     }
     .logo{
         a{
-            margin-right: 5rem;
+            margin-right: 4rem;
         }
     }
     .icons{
