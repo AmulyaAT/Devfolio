@@ -1,112 +1,196 @@
 @import "../global.scss";
 
-@media (min-width: 360px) and (max-width:1366px){
-    .main-container{
-        color:$main-font-color;
-        background-color: $background-color ;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;              
-    justify-content: center;          
-    min-height: 50vh;                
-    padding: 10px;
-    img{
-        display: block;
-        width: 600px;
-        height: 450px;
+// Extra-small devices
+@media (max-width: 480px) {
+    .main-container {
+        color: $main-font-color;
+        background-color: $background-color;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 50vh;
+        padding: 1rem;
+
+        img {
+            display: block;
+            width: 18rem;
+            height: auto;
+        }
     }
-    }
-    .name{
-        margin-top: 30px;
-        font-family: Unbounded , "Unbounded placeholder" , sans-serif;
-        /* Font & Text */
-        font-size: 50px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 100px;
+
+    .name {
+        margin-top: 1rem;
+        font-family: Unbounded, "Unbounded placeholder", sans-serif;
+        font-size: 2rem;
+        line-height: 2.5rem;
         text-align: center;
-        text-indent: 0px;
-        text-transform: none;
-        vertical-align: baseline;
-        white-space: pre-wrap;
-        word-spacing: 0px;
-        /* Color & Background */
-        background-attachment: scroll;
-        background-color: rgba(0, 0, 0, 0);
-        background-image: none;
-        background-position: 0% 0%;
-        background-repeat: repeat;
     }
-    
-    .para{
+
+    .para {
         font-family: $normal-font;
+        font-size: 1rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+}
+
+// Small devices
+@media (min-width: 481px) and (max-width: 767px) {
+    .main-container {
+        color: $main-font-color;
+        background-color: $background-color;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 50vh;
+        padding: 1rem;
+
+        img {
+            display: block;
+            width: 20rem;
+            height: auto;
+        }
+    }
+
+    .name {
+        margin-top: 1.5rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .para {
+        font-size: 1.25rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .icons {
+        gap: 0.75rem;
+    }
+}
+
+// Medium devices
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-container {
+        color: $main-font-color;
+        background-color: $background-color;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 60vh;
+        padding: 1.5rem;
+
+        img {
+            display: block;
+            width: 25rem;
+            height: auto;
+        }
+    }
+
+    .name {
+        margin-top: 2rem;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        text-align: center;
+    }
+
+    .para {
         font-size: 1.5rem;
         text-align: center;
         padding: 1rem;
     }
-    
-    .icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+
+    .icons {
+        gap: 1rem;
     }
-    
 }
-@media (min-width : 335px) and (max-width : 740px){
-    .main-container{
+
+// Large devices
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .main-container {
         color: $main-font-color;
-    background-color: $background-color ;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;              
-    justify-content: center;          
-    min-height: 50vh;                
-    padding: 10px;
-    img{
-        display: block;
-        width: 600px;
-        height: 350px;
+        background-color: $background-color;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 70vh;
+        padding: 2rem;
+
+        img {
+            display: block;
+            width: 30rem;
+            height: auto;
+        }
     }
+
+    .name {
+        margin-top: 2.5rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
+        text-align: center;
     }
-    
-.name{
-    margin-top: 50px;
-    font-family: Unbounded , "Unbounded placeholder" , sans-serif;
-    /* Font & Text */
-    font-size: 50px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    letter-spacing: -1.5px;
-    line-height: 16px;
-    text-align: center;
-    text-indent: 0px;
-    text-transform: none;
-    vertical-align: baseline;
-    white-space: pre-wrap;
-    word-spacing: 0px;
-    /* Color & Background */
-    background-attachment: scroll;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: repeat;
+
+    .para {
+        font-size: 1.75rem;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    .icons {
+        gap: 1.25rem;
+    }
 }
 
-.para{
-    font-family: $normal-font;
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 1rem;
-}
+// Extra-large devices
+@media (min-width: 1367px) {
+    .main-container {
+        color: $main-font-color;
+        background-color: $background-color;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 80vh;
+        padding: 2rem;
 
-.icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+        img {
+            display: block;
+            width: 35rem;
+            height: auto;
+        }
+    }
 
+    .name {
+        margin-top: 3rem;
+        font-size: 4rem;
+        line-height: 4.5rem;
+        text-align: center;
+    }
+
+    .para {
+        font-size: 2rem;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .icons {
+        gap: 1.5rem;
+    }
 }

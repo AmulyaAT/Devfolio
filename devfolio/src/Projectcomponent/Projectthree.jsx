@@ -1,6 +1,6 @@
 import React from "react";
 import "./_Projectthree.scss"
-
+import "./_MediaProject.scss";
 const Projectthree=()=>{
     return(
         <div className="projectfour-container">

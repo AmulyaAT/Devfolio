@@ -1,33 +1,7 @@
 @import "../global.scss";
 
-
-@media (min-width: 360px) and (max-width: 1366px) {
-    .header-container {
-        display: flex;
-        background-color: $white-color;
-        padding: 0.5rem;
-        color:$main-font-color;
-    }
-
-    .header {
-        a{
-            margin-right: 4rem;
-        }
-    }
-    .logo{
-        a{
-            margin-right: 7rem;
-        }
-    }
-    .icons{
-        a{
-            margin-right: 1rem;
-        }
-    }
-}
-
-@media (min-width : 335px) and (max-width:740px){
-
+@media (max-width: 480px) {
+    // Styles for extra-small devices
     .header-container {
         display: flex;
         background-color: $white-color;
@@ -35,19 +9,123 @@
         color: $main-font-color;
     }
 
-    .header{
-        a{
+    .header {
+        a {
+            margin-right: 1rem;
+        }
+    }
+    .logo {
+        a {
             margin-right: 2rem;
         }
     }
-    .logo{
-        a{
+    .icons {
+        a {
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    // Styles for small devices
+    .header-container {
+        display: flex;
+        background-color: $white-color;
+        padding: 0.5rem;
+        color: $main-font-color;
+    }
+
+    .header {
+        a {
+            margin-right: 2rem;
+        }
+    }
+    .logo {
+        a {
+            margin-right: 3rem;
+        }
+    }
+    .icons {
+        a {
+            margin-right: 0.75rem;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    // Styles for medium devices
+    .header-container {
+        display: flex;
+        background-color: $white-color;
+        padding: 0.75rem;
+        color: $main-font-color;
+    }
+
+    .header {
+        a {
+            margin-right: 3rem;
+        }
+    }
+    .logo {
+        a {
+            margin-right: 5rem;
+        }
+    }
+    .icons {
+        a {
+            margin-right: 1rem;
+        }
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    // Styles for large devices
+    .header-container {
+        display: flex;
+        background-color: $white-color;
+        padding: 1rem;
+        color: $main-font-color;
+    }
+
+    .header {
+        a {
             margin-right: 4rem;
         }
     }
-    .icons{
-        a{
+    .logo {
+        a {
+            margin-right: 7rem;
+        }
+    }
+    .icons {
+        a {
             margin-right: 1rem;
+        }
+    }
+}
+
+@media (min-width: 1367px) {
+    // Styles for extra-large devices
+    .header-container {
+        display: flex;
+        background-color: $white-color;
+        padding: 1.25rem;
+        color: $main-font-color;
+    }
+
+    .header {
+        a {
+            margin-right: 5rem;
+        }
+    }
+    .logo {
+        a {
+            margin-right: 9rem;
+        }
+    }
+    .icons {
+        a {
+            margin-right: 1.5rem;
         }
     }
 }

@@ -1,0 +1,317 @@
+@import "../global.scss";
+
+.project-container {
+    background-color: $secondary-background-color;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading h3 {
+    font-family: Unbounded, "Unbounded Placeholder", sans-serif;
+    font-size: 2.25rem; 
+    line-height: 3.15rem; 
+    text-align: start;
+    color: rgb(224, 52, 0);
+}
+
+.heading p {
+    font-family: "Instrument Sans", "Instrument Sans Placeholder", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem; 
+    text-align: start;
+    margin-bottom: 2rem;
+}
+
+.projectone {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 15rem; 
+        width: 100%; 
+        max-width: 30rem;
+        object-fit: cover;
+    }
+}
+
+// Extra-small devices
+@media (max-width: 480px) {
+    .heading h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .heading p {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .projectone img {
+        height: 12rem;
+        max-width: 18rem;
+    }
+}
+
+// Small devices
+@media (min-width: 481px) and (max-width: 767px) {
+    .heading h3 {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .heading p {
+        font-size: 1rem;
+    }
+
+    .projectone img {
+        height: 14rem;
+        max-width: 24rem;
+    }
+}
+
+// Medium devices
+@media (min-width: 768px) and (max-width: 1024px) {
+    .heading h3 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .heading p {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+
+    .projectone img {
+        height: 20rem;
+        max-width: 28rem;
+    }
+}
+
+// Large devices
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .heading h3 {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+
+    .heading p {
+        font-size: 1.25rem;
+    }
+
+    .projectone img {
+        height: 24rem;
+        max-width: 32rem;
+    }
+}
+
+// Extra-large devices
+@media (min-width: 1367px) {
+    .heading h3 {
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+    }
+
+    .heading p {
+        font-size: 1.5rem;
+    }
+
+    .projectone img {
+        height: 30rem;
+        max-width: 40rem;
+    }
+}
+
+
+
+//Projecttwo component
+
+@import "../global.scss";
+
+.projecttwo-container {
+    background-color: $background-color;
+    font-family: $secondary-font;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    color: $main-font-color;
+    padding: 2rem 1rem; 
+}
+
+
+.projectlink,
+.projectthreelink {
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 15rem; 
+        width: 100%; 
+        max-width: 30rem; 
+        object-fit: cover; 
+    }
+}
+
+
+.projecttitletwo,
+.projecttitlethree {
+    font-weight: bolder;
+    text-align: center; 
+    font-size: 1.5rem; 
+}
+
+
+@media (max-width: 480px) {
+    .projecttwo-container {
+        flex-direction: column; 
+        padding: 1rem; 
+    }
+
+    .projecttitletwo,
+    .projecttitlethree {
+        font-size: 1.25rem; 
+    }
+
+    .projectlink img,
+    .projectthreelink img {
+        height: 12rem; 
+        max-width: 100%; 
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .projectlink img,
+    .projectthreelink img {
+        height: 15rem; 
+        max-width: 30rem; 
+    }
+
+    .projecttitletwo,
+    .projecttitlethree {
+        font-size: 1.5rem; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .projectlink img,
+    .projectthreelink img {
+        height: 20rem; 
+        max-width: 50rem; 
+    }
+
+    .projecttitletwo,
+    .projecttitlethree {
+        font-size: 1.75rem; 
+    }
+}
+
+@media (min-width: 1025px) {
+    .projectlink img,
+    .projectthreelink img {
+        height: 20rem; 
+        max-width: 50rem; 
+    }
+
+    .projecttitletwo,
+    .projecttitlethree {
+        font-size: 2rem; 
+    }
+}
+
+
+//for Projectthree component
+
+@import "../global.scss";
+
+.projectfour-container {
+    background-color: $background-color;
+    font-family: $secondary-font;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    color: $main-font-color;
+    padding: 2rem 1rem; 
+    gap: 1rem;
+}
+
+
+.link,
+.projlink {
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 15rem; 
+        width: 100%; 
+        max-width: 30rem; 
+        object-fit: cover; 
+    }
+}
+
+
+.projecttitlefour,
+.projecttitlefive {
+    font-weight: bolder;
+    text-align: center; 
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 480px) {
+    .projectfour-container {
+        flex-direction: column; 
+        padding: 1rem; 
+    }
+
+    .projecttitlefour,
+    .projecttitlefive {
+        font-size: 1.25rem; 
+    }
+
+    .link img,
+    .projlink img {
+        height: 12rem; 
+        max-width: 100%; 
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .link img,
+    .projlink img {
+        height: 15rem; 
+        max-width: 30rem; 
+    }
+
+    .projecttitlefour,
+    .projecttitlefive {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .link img,
+    .projlink img {
+        height: 20rem; 
+        max-width: 50rem; 
+    }
+
+    .projecttitlefour,
+    .projecttitlefive {
+        font-size: 1.75rem; 
+    }
+}
+
+@media (min-width: 1025px) {
+    .link img,
+    .projlink img {
+        height: 20rem;
+        max-width: 50rem;
+    }
+
+    .projecttitlefour,
+    .projecttitlefive {
+        font-size: 2rem; 
+    }
+}

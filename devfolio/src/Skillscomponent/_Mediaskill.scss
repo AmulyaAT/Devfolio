@@ -1,94 +1,108 @@
 @import "../global.scss";
 
-@media (min-width: 360px) and (max-width: 1366px){
-    .Skill-container{
-        background-color:$secondary-color;
-        padding: 2rem;
-        font-family: $secondary-font;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .Skill__heading{
-        font-family: Unbounded, "Unbounded Placeholder", sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            font-variant: normal;
-            letter-spacing: normal;
-            line-height: 30px;
-            text-decoration: none solid rgb(224, 52, 0);
-            text-align: start;
-            text-indent: 0px;
-            text-transform: none;
-            white-space: pre;
-            word-spacing: 0px;
-            color: rgb(224, 52, 0);
-       
-    }
-    .Skill__one,
-    .Skill__two,
-    .Skill__three,
-    .Skill__four {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    
-      img{
-      align-items: center;
-      width: 5rem;
-      height: 5rem;
-      padding: 1rem;
-    
-      &:hover{
-        transform: scale(1.1);
-        transition: transform 0.3s ease-in-out;
-      }
-      }
+.Skill-container {
+    background-color: $secondary-color;
+    padding: 2rem;
+    font-family: $secondary-font;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.Skill__heading {
+    font-family: Unbounded, "Unbounded Placeholder", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-decoration: none solid rgb(224, 52, 0);
+    text-align: center;
+    color: rgb(224, 52, 0);
+}
+
+.Skill__one,
+.Skill__two,
+.Skill__three,
+.Skill__four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0; 
+
+    img {
+        align-items: center;
+        width: 5rem; 
+        height: 5rem;
+        padding: 1rem;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
     }
 }
-@media (min-width : 335px) and (max-width:740px){
-    .Skill-container{
-        background-color:$secondary-color;
-        padding: 1rem;
-        font-family: $secondary-font;
-        display: flex;
-        flex-direction: column;
+
+
+@media (max-width: 480px) {
+    .Skill-container {
+        padding: 1rem; 
     }
-    
-    .Skill__heading{
-        font-family: Unbounded, "Unbounded Placeholder", sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            font-variant: normal;
-            letter-spacing: normal;
-            line-height: 10px;
-            text-decoration: none solid rgb(224, 52, 0);
-            text-align: start;
-            text-indent: 0px;
-            text-transform: none;
-            white-space: pre;
-            word-spacing: 0px;
-            color: rgb(224, 52, 0);
-       
+
+    .Skill__heading {
+        font-size: 18px; 
+        line-height: 25px;
     }
+
     .Skill__one,
     .Skill__two,
     .Skill__three,
     .Skill__four {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    
-      img{
-      align-items: center;
-      width: 3rem;
-      height: 3rem;
-      padding: 0.5rem;
-    
-      &:hover{
-        transform: scale(1.1);
-        transition: transform 0.3s ease-in-out;
-      }
-      }
+        img {
+            width: 3rem; 
+            height: 3rem;
+            padding: 0.5rem; 
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .Skill-container {
+        padding: 1.5rem;
+    }
+
+    .Skill__heading {
+        font-size: 20px; 
+        line-height: 30px;
+    }
+
+    .Skill__one,
+    .Skill__two,
+    .Skill__three,
+    .Skill__four {
+        img {
+            width: 4rem; 
+            height: 4rem;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .Skill-container {
+        padding: 2rem; 
+    }
+
+    .Skill__heading {
+        font-size: 22px; 
+    }
+
+    .Skill__one,
+    .Skill__two,
+    .Skill__three,
+    .Skill__four {
+        img {
+            width: 5rem;
+            height: 5rem;
+        }
     }
 }
