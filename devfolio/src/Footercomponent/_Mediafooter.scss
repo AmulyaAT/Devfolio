@@ -1,0 +1,191 @@
+@import "../global.scss";
+
+@media (max-width: 480px) {
+    // Styles for extra-small devices
+    .footer-container{
+        font-family: $secondary-font;
+        color: $background-color;
+        background-color: $main-font-color;
+        justify-content: center;
+        text-align: center;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logos{
+        height:auto; 
+        font-family: $main-font 
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .mail{
+       cursor: pointer;
+    
+       &:hover{
+          color: $secondary-color;
+       }
+    }
+    
+    .copy{
+        cursor: pointer;
+        &:hover{
+           color: $secondary-color;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    // Styles for small devices
+    .footer-container{
+        font-family: $secondary-font;
+        color: $background-color;
+        background-color: $main-font-color;
+        justify-content: center;
+        text-align: center;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logos{
+        height:auto; 
+        font-family: $main-font 
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .mail{
+       cursor: pointer;
+    
+       &:hover{
+          color: $secondary-color;
+       }
+    }
+    
+    .copy{
+        cursor: pointer;
+        &:hover{
+           color: $secondary-color;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    // Styles for medium devices
+    .footer-container{
+        font-family: $secondary-font;
+        color: $background-color;
+        background-color: $main-font-color;
+        justify-content: center;
+        text-align: center;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logos{
+        height:auto; 
+        font-family: $main-font 
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .mail{
+       cursor: pointer;
+    
+       &:hover{
+          color: $secondary-color;
+       }
+    }
+    
+    .copy{
+        cursor: pointer;
+        &:hover{
+           color: $secondary-color;
+        }
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    // Styles for large devices
+    .footer-container{
+        font-family: $secondary-font;
+        color: $background-color;
+        background-color: $main-font-color;
+        justify-content: center;
+        text-align: center;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logos{
+        height:auto; 
+        font-family: $main-font 
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .mail{
+       cursor: pointer;
+    
+       &:hover{
+          color: $secondary-color;
+       }
+    }
+    
+    .copy{
+        cursor: pointer;
+        &:hover{
+           color: $secondary-color;
+        }
+    }
+}
+
+@media (min-width: 1367px) {
+    // Styles for extra-large devices
+    .footer-container{
+        font-family: $secondary-font;
+        color: $background-color;
+        background-color: $main-font-color;
+        justify-content: center;
+        text-align: center;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logos{
+        height:auto; 
+        font-family: $main-font 
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .mail{
+       cursor: pointer;
+    
+       &:hover{
+          color: $secondary-color;
+       }
+    }
+    
+    .copy{
+        cursor: pointer;
+        &:hover{
+           color: $secondary-color;
+        }
+    }
+}

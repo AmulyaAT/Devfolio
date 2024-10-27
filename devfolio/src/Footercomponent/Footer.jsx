@@ -1,6 +1,6 @@
 import React from "react";
 import "./_Footer.scss"
-
+import "./_Mediafooter.scss"
 const Footer=()=>{
     return(
         <div className="footer-container">
