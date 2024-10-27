@@ -1,5 +1,6 @@
 import React from "react";
 import "./_Skills.scss"
+import "./_Mediaskill.scss"
 import html from "./Icons/html.svg"
 import css from "./Icons/css.svg"
 import javascript from "./Icons/javascript.svg"
