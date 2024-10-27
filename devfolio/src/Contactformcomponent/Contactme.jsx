@@ -1,5 +1,6 @@
 import React from "react";
 import "./_Contact.scss"
+import "./_Mediacontact.scss"
 const Contact=()=>{
     return(
         
