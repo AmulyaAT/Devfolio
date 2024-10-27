@@ -1,196 +1,37 @@
-@import "../global.scss";
+@import "../global.scss"; 
 
-// Extra-small devices
-@media (max-width: 480px) {
-    .main-container {
-        color: $main-font-color;
-        background-color: $background-color;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 50vh;
-        padding: 1rem;
-
+.main-container {
+    @media (max-width: 768px) {
+        padding: 8px; 
+        
         img {
-            display: block;
-            width: 18rem;
+            width: 100%;
             height: auto;
         }
-    }
-
-    .name {
-        margin-top: 1rem;
-        font-family: Unbounded, "Unbounded placeholder", sans-serif;
-        font-size: 2rem;
-        line-height: 2.5rem;
-        text-align: center;
-    }
-
-    .para {
-        font-family: $normal-font;
-        font-size: 1rem;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .icons {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 0.5rem;
     }
 }
 
-// Small devices
-@media (min-width: 481px) and (max-width: 767px) {
-    .main-container {
-        color: $main-font-color;
-        background-color: $background-color;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 50vh;
-        padding: 1rem;
-
-        img {
-            display: block;
-            width: 20rem;
-            height: auto;
-        }
-    }
-
-    .name {
-        margin-top: 1.5rem;
-        font-size: 2.5rem;
-        line-height: 3rem;
-        text-align: center;
-    }
-
-    .para {
-        font-size: 1.25rem;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .icons {
-        gap: 0.75rem;
+.name {
+    @media (max-width: 768px) {
+        font-size: 48px; 
+        line-height: 56px; 
+        margin-top: 20px;
     }
 }
 
-// Medium devices
-@media (min-width: 768px) and (max-width: 1024px) {
-    .main-container {
-        color: $main-font-color;
-        background-color: $background-color;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 60vh;
-        padding: 1.5rem;
-
-        img {
-            display: block;
-            width: 25rem;
-            height: auto;
-        }
-    }
-
-    .name {
-        margin-top: 2rem;
-        font-size: 3rem;
-        line-height: 3.5rem;
-        text-align: center;
-    }
-
-    .para {
-        font-size: 1.5rem;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .icons {
-        gap: 1rem;
+.para {
+    @media (max-width: 768px) {
+        font-size: 0.875rem; 
+        padding: 0 1rem; 
     }
 }
 
-// Large devices
-@media (min-width: 1025px) and (max-width: 1366px) {
-    .main-container {
-        color: $main-font-color;
-        background-color: $background-color;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 70vh;
-        padding: 2rem;
-
-        img {
-            display: block;
-            width: 30rem;
-            height: auto;
+.icons {
+    @media (max-width: 768px) {
+        flex-direction: column; 
+        
+        a {
+            margin: 0.5rem 0; 
         }
-    }
-
-    .name {
-        margin-top: 2.5rem;
-        font-size: 3.5rem;
-        line-height: 4rem;
-        text-align: center;
-    }
-
-    .para {
-        font-size: 1.75rem;
-        text-align: center;
-        padding: 1.5rem;
-    }
-
-    .icons {
-        gap: 1.25rem;
-    }
-}
-
-// Extra-large devices
-@media (min-width: 1367px) {
-    .main-container {
-        color: $main-font-color;
-        background-color: $background-color;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 80vh;
-        padding: 2rem;
-
-        img {
-            display: block;
-            width: 35rem;
-            height: auto;
-        }
-    }
-
-    .name {
-        margin-top: 3rem;
-        font-size: 4rem;
-        line-height: 4.5rem;
-        text-align: center;
-    }
-
-    .para {
-        font-size: 2rem;
-        text-align: center;
-        padding: 2rem;
-    }
-
-    .icons {
-        gap: 1.5rem;
     }
 }

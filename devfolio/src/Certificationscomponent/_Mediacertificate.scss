@@ -1,196 +1,55 @@
 @import "../global.scss";
+@media (max-width: 768px) {
+
+    .certificate-container {
+        padding: 1rem; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .certificate-title {
+        font-size: 1.5rem; 
+        line-height: 2rem;
+    }
+
+    .main-certificate {
+        img {
+            height: 15rem; 
+            width: auto; 
+        }
+    }
+
+    .certificate {
+        img {
+            height: 8rem; 
+            width: auto; 
+        }
+    }
+}
 
 @media (max-width: 480px) {
-    // Extra-small devices (portrait phones, etc.)
     .certificate-container {
-        background-color: $secondary-background-color;
-        font-family: $secondary-font;
-        color: $footer-color;
-        padding: 1rem;
+        padding: 0.5rem;
         display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
+        flex-direction: column; 
     }
+
     .certificate-title {
-        font-family: $main-font;
-        font-size: 1.25rem;
-        line-height: 1.875rem;
-        color: rgb(224, 52, 0);
-        padding: 1rem;
+        font-size: 1.25rem; 
+        line-height: 1.5rem;
     }
-    .main-certificate, .certificate {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem;
-        gap: 1rem;
-        
+
+    .main-certificate {
         img {
-            display: block;
-            margin: 0 auto;
-            height: 8rem;
-            width: 8rem;
-        }
-
-        h3 {
-            font-weight: bold;
+            height: 10rem; 
+            width: auto; 
         }
     }
-}
 
-@media (min-width: 481px) and (max-width: 767px) {
-    // Small devices (landscape phones, small tablets, etc.)
-    .certificate-container {
-        background-color: $secondary-background-color;
-        font-family: $secondary-font;
-        color: $footer-color;
-        padding: 1rem;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-    }
-    .certificate-title {
-        font-family: $main-font;
-        font-size: 1.25rem;
-        line-height: 1.875rem;
-        color: rgb(224, 52, 0);
-        padding: 1rem;
-    }
-    .main-certificate, .certificate {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem;
-        gap: 1rem;
-        
+    .certificate {
         img {
-            display: block;
-            margin: 0 auto;
-            height: 8rem;
-            width: 8rem;
-        }
-
-        h3 {
-            font-weight: bold;
-        }
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    // Medium devices (tablets, small laptops, etc.)
-    .certificate-container {
-        background-color: $secondary-background-color;
-        font-family: $secondary-font;
-        color: $footer-color;
-        padding: 1rem;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-    }
-    .certificate-title {
-        font-family: $main-font;
-        font-size: 1.5rem;
-        line-height: 2rem;
-        color: rgb(224, 52, 0);
-        padding: 1rem;
-    }
-    .main-certificate, .certificate {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem;
-        gap: 1rem;
-        
-        img {
-            display: block;
-            margin: 0 auto;
-            height: 10rem;
-            width: 10rem;
-        }
-
-        h3 {
-            font-weight: bold;
-        }
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1366px) {
-    // Large devices (desktops, large laptops, etc.)
-    .certificate-container {
-        background-color: $secondary-background-color;
-        font-family: $secondary-font;
-        color: $footer-color;
-        padding: 2rem;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-    }
-    .certificate-title {
-        font-family: $main-font;
-        font-size: 1.75rem;
-        line-height: 2.5rem;
-        color: rgb(224, 52, 0);
-        padding: 1.5rem;
-    }
-    .main-certificate, .certificate {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem;
-        gap: 1rem;
-        
-        img {
-            display: block;
-            margin: 0 auto;
-            height: 12rem;
-            width: 12rem;
-        }
-
-        h3 {
-            font-weight: bold;
-        }
-    }
-}
-
-@media (min-width: 1367px) {
-    // Extra-large devices (large desktops)
-    .certificate-container {
-        background-color: $secondary-background-color;
-        font-family: $secondary-font;
-        color: $footer-color;
-        padding: 2rem;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-    }
-    .certificate-title {
-        font-family: $main-font;
-        font-size: 2rem;
-        line-height: 2.75rem;
-        color: rgb(224, 52, 0);
-        padding: 2rem;
-    }
-    .main-certificate, .certificate {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem;
-        gap: 1.5rem;
-        
-        img {
-            display: block;
-            margin: 0 auto;
-            height: 15rem;
-            width: 15rem;
-        }
-
-        h3 {
-            font-weight: bold;
+            height: 6rem; 
+            width: auto;
         }
     }
 }
