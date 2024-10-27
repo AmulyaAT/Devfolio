@@ -1,5 +1,6 @@
 import React from "react";
 import "./_Certificate.scss"
+import "./_Mediacertificate.scss"
 const Certificate=()=>{
     return(
         <div className="certificate-container">
