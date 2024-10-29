@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./_Certificate.scss";
-
+import "./_Mediacertificate.scss";
 const Certificate = () => {
   const boxRef = useRef(null);
   const [degrees, setDegrees] = useState(-355);
