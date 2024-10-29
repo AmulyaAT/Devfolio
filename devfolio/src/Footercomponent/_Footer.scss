@@ -12,13 +12,23 @@
 }
 
 .logos{
-    height:auto; //ammu remember to change it to fit logo
+    height:auto;
     font-family: $main-font 
 }
 
 .icons{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+       
+        img{
+            width: 2.5rem;
+            height: 2.5rem;
+            gap: 1rem;
+           
+        }
+    
 }
 .mail{
    cursor: pointer;

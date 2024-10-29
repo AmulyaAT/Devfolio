@@ -4,24 +4,36 @@
    display: flex;
    background-color: $white-color;
    font-family: $secondary-font;
-   padding: 1.25rem;
+   font-size: 18px;
+   font-weight: bolder;
+   padding: 1rem;
    color: $main-font-color;
+   align-items: center;  
 }
 
 .header {
    a {
-      margin-right: 7.1875rem;
+      margin-right: 9.1875rem;
+      &:hover{
+         text-decoration: underline solid $main-font-color;
+      }
    }
 }
 
 .logo {
+   flex-grow: 1;
    a {
-      margin-right: 26.6875rem;
+      margin-right: 24.6875rem;
    }
 }
 
 .icons{
    a {
-      margin-right: 1.625rem;
+      margin-right: 1.5rem;
+
+      img{
+         width: 2rem;
+         height: 2rem;
+      }
    }
 }
