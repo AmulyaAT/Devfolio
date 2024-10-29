@@ -1,35 +1,35 @@
-@import "../global.scss"; 
+@import "../global.scss";
 
 .header-container {
-    @media (max-width: 768px) {
-        flex-direction:column;
+    @media (max-width: 1535px) { 
+        flex-direction: column;
         padding: 0.75rem; 
     }
 }
 
 .header {
     a {
-        @media (max-width: 768px) {
+        @media (max-width: 1535px) {
             margin-right: 3rem; 
-            flex-direction:column;
+            flex-direction: column;
         }
     }
 }
 
 .logo {
     a {
-        @media (max-width: 768px) {
+        @media (max-width: 1535px) {
             margin-right: 1rem; 
-            flex-direction:column;
+            flex-direction: column;
         }
     }
 }
 
 .icons {
     a {
-        @media (max-width: 768px) {
+        @media (max-width: 1535px) {
             margin-right: 0.5rem;
-            flex-direction:column; 
+            flex-direction: column; 
         }
     }
 }
