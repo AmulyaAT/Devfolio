@@ -1,54 +1,40 @@
-@import "../global.scss"; 
-.project-container {
-    @media (max-width: 768px) {
-        padding: 2rem; 
+@import "../global.scss";
+
+@media (max-width: 768px) {
+    .project__container {
+        padding: 1.5rem; 
     }
 
-    .heading h3 {
-        @media (max-width: 768px) {
-            font-size: 24px;
-            line-height: 32px; 
-        }
+    .projectheading {
+        font-size: 2rem;
+        line-height: 2.5rem; 
     }
 
-    .heading p {
-        @media (max-width: 768px) {
-            font-size: 14px; 
-            line-height: 20px; 
-            margin-bottom: 1rem; 
-    }
-
-    .projectone {
-        img {
-            @media (max-width: 768px) {
-                height: 20rem; 
-                width: auto;
-        }
-    }
-}
-    }
-.projectfour-container,
-.projecttwo-container {
-    @media (max-width: 768px) {
+    .project__images-container {
         flex-direction: column; 
-        padding: 1rem;
+        gap: 30px; 
     }
 
-    img {
-        @media (max-width: 768px) {
-            height: 15rem; 
-            width: auto; 
-        }
+    .project__image {
+        width: 80%; 
     }
 }
 
-.projecttitlefour,
-.projecttitletwo,
-.projecttitlethree {
-    @media (max-width: 768px) {
-        font-size: 18px; 
+@media (max-width: 480px) {
+    .project__container {
+        padding: 1rem; 
+    }
+
+    .projectheading {
+        font-size: 1.5rem; 
+        line-height: 2rem;
+    }
+
+    .project__images-container {
+        gap: 20px; 
+    }
+
+    .project__image {
+        width: 100%; 
     }
 }
-}
-
-
