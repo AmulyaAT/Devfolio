@@ -1,65 +1,80 @@
-import React, { useRef, useEffect, useState } from "react";
+import React from "react";
 import "./_Certificate.scss";
 import "./_Mediacertificate.scss";
-const Certificate = () => {
-  const boxRef = useRef(null);
-  const [degrees, setDegrees] = useState(-355);
-  const rotateBox = (direction) => {
-    const newDegrees = degrees + (direction === "prev" ? 45 : -45);
-    setDegrees(newDegrees);
+
+export const Certificate = () => {
+
+  const handleNext = () => {
+    const items = document.querySelectorAll(".item");
+    if (items.length > 0) {
+      document.querySelector(".box").appendChild(items[0]);
+    }
   };
 
-  useEffect(() => {
-    if (boxRef.current) {
-      boxRef.current.style.transform = `perspective(1500px) rotateY(${degrees}deg)`;
+  const handlePrev = () => {
+    const items = document.querySelectorAll(".item");
+    if (items.length > 0) {
+      document.querySelector(".box").prepend(items[items.length - 1]);
     }
-  }, [degrees]);
+  };
 
   return (
-    <div className="certificate-container">
-      <div className="box" ref={boxRef}>
-        <span style={{ "--i": 1 }}>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy-m47_5c2taCIJTBRcPtOCgphqj4Dtd41vw&s" alt="Certificate 1" />
-        </span>
-        <span style={{ "--i": 2 }}>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy-m47_5c2taCIJTBRcPtOCgphqj4Dtd41vw&s" alt="Certificate 2" />
-        </span>
-        <span style={{ "--i": 3 }}>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy-m47_5c2taCIJTBRcPtOCgphqj4Dtd41vw&s" alt="Certificate 3" />
-        </span>
-        <span style={{ "--i": 4 }}>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy-m47_5c2taCIJTBRcPtOCgphqj4Dtd41vw&s"
-            alt="Certificate 4"
-          />
-        </span>
-        <span style={{ "--i": 5 }}>
+    <div>
+      <h2 className="mainheading">Certifications</h2>
+      <div className="body">
+      <div className="box">
+        <div className="item">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGeXSppe4nT8j48e1-6n2JwLBecraRn0TkQ&s"
-            alt="Certificate 5"
+            alt="Carousel item"
           />
-        </span>
-        <span style={{ "--i": 6 }}>
+        </div>
+        <div className="item">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGeXSppe4nT8j48e1-6n2JwLBecraRn0TkQ&s"
-            alt="Certificate 6"
+            alt="Carousel item"
           />
+        </div>
+        <div className="item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGeXSppe4nT8j48e1-6n2JwLBecraRn0TkQ&s"
+            alt="Carousel item"
+          />
+        </div>
+        <div className="item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGeXSppe4nT8j48e1-6n2JwLBecraRn0TkQ&s"
+            alt="Carousel item"
+          />
+        </div>
+        <div className="item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGeXSppe4nT8j48e1-6n2JwLBecraRn0TkQ&s"
+            alt="Carousel item"
+          />
+        </div>
+        <div className="item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGeXSppe4nT8j48e1-6n2JwLBecraRn0TkQ&s"
+            alt="Carousel item"
+          />
+        </div>
+        <div className="item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGeXSppe4nT8j48e1-6n2JwLBecraRn0TkQ&s"
+            alt="Carousel item"
+          />
+        </div>
+      </div>
+      <div className="buttons">
+        <span className="prev" onClick={handlePrev}>
+          
         </span>
-        <span style={{"--i": 7}}>
-            <h2 className="heading">
-                Certificates
-            </h2>
-
+        <span className="next" onClick={handleNext}>
+          
         </span>
       </div>
-      <div className="btns">
-        <button className="btnprev" onClick={() => rotateBox("prev")}>
-        </button>
-        <button className="btnnext" onClick={() => rotateBox("next")}>
-        </button>
-      </div>
+    </div>
     </div>
   );
 };
-
-export default Certificate;
