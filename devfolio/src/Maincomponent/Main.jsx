@@ -17,10 +17,9 @@ const Main=()=>{
         </div>
         <div>
         <div className="icons">
-                <a href="">icon</a>
-                <a href="">icon</a>
-                <a href="">icon</a>
-                <a href="">icon</a>
+        <a href={`${process.env.PUBLIC_URL}/AMULYA_AT_Resume.pdf`} download className="download-resume-button">
+            Download Resume
+          </a>
             </div>
         </div>
 
