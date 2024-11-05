@@ -6,6 +6,7 @@ import {Project} from "./Projectcomponent/Project"
 import Skills from './Skillscomponent/Skills';
 import {Certificate} from './Certificationscomponent/Certificate';
 import Contact from './Contactformcomponent/Contactme';
+import Time from './Timelinecomponent/Timeline';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Header/>
     <Main/>
     <Skills/>
+    <Time/>
     <Project/>
     <Certificate/>
     <Contact/>
