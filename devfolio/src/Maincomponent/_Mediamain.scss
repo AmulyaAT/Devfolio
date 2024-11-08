@@ -27,12 +27,25 @@
     }
 }
 
-.icons {
+.resume_btn {
     @media (max-width: 768px) {
-        flex-direction: column; 
-        
-        a {
-            margin: 0.5rem 0; 
-        }
+        .download-resume-button {
+            font-family: $secondary-font;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: $footer-color;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.3s ease;
+          
+            &:hover {
+              background-color: darken($main-font-color, 10%);
+              color: $secondary-color;
+            }
+          }
     }
 }
