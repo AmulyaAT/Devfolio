@@ -43,9 +43,11 @@
 }
 
 .para{
-    font-family: $normal-font;
     font-size: 1rem;
     text-align: center;
+    font-family: $secondary-font;
+    font-weight: 600;
+    padding: 1rem;
 }
 
 .icons
