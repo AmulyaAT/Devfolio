@@ -2,14 +2,14 @@ import React from "react";
 import "./_Certificate.scss";
 import "./_Mediacertificate.scss";
 
-import C from "./Certificates/C.svg";
-import Datastructure from "./Certificates/Datastructure.svg";
-import Digitalarts from "./Certificates/Digitalarts.svg";
-import Genesis from "./Certificates/Genesis.svg";
-import Internshala from "./Certificates/Internshala.svg";
-import Oasis from "./Certificates/Oasis.svg";
-import Paypal from "./Certificates/Paypal.svg";
-import Udyamsheel from "./Certificates/udyamsheel.svg";
+import C from "./Certificates/certi6.jpeg";
+import Datastructure from "./Certificates/certi2.jpeg";
+import Digitalarts from "./Certificates/certi3.jpeg";
+import Genesis from "./Certificates/certi4.jpeg";
+import Internshala from "./Certificates/certi5.jpeg";
+import Oasis from "./Certificates/certi1.jpeg";
+import Paypal from "./Certificates/certi7.jpeg";
+import Udyamsheel from "./Certificates/certi8.jpeg";
 
 export const Certificate = () => {
   const handleNext = () => {

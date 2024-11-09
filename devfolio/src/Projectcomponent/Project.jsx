@@ -7,6 +7,7 @@ import Ecompage from "./Project-images/Ecompage.svg";
 import Tradetrack from "./Project-images/Tradetrack.svg";
 import LoginPage from "./Project-images/LoginPage.svg";
 import todo from "./Project-images/todo.svg";
+
 export const Project = () => {
   // Create a reference for the container
   const containerRef = useRef(null);
@@ -40,24 +41,51 @@ export const Project = () => {
 
   return (
     <div className="project__container">
-  <section className="projectheading">Projects</section>
-  <div className="project__images-container" ref={containerRef}>
-    <a href="https://github.com/AmulyaAT/iVoyant-Assignment-1-ecom-webpage-" target="_blank" rel="noopener noreferrer">
-      <img src={Ecompage} alt="Project 1" className="project__images" />
-    </a>
-    <a href="https://github.com/AmulyaAT/Login_Signup_page" target="_blank" rel="noopener noreferrer">
-      <img src={LoginPage} alt="Project 2" className="project__images" />
-    </a>
-    <a href="https://github.com/AmulyaAT/Analysis-and-classification-of-COPD-using-Deep-Learning" target="_blank" rel="noopener noreferrer">
-      <img src={Copd} alt="Project 3" className="project__images" />
-    </a>
-    <a href="https://github.com/yourusername/Tradetrack" target="_blank" rel="noopener noreferrer">
-      <img src={Tradetrack} alt="Project 4" className="project__images" />
-    </a>
-    <a href="https://github.com/yourusername/todo" target="_blank" rel="noopener noreferrer">
-      <img src={todo} alt="Project 5" className="project__images" />
-    </a>
-  </div>
-</div>
+      <section className="projectheading">Projects</section>
+      <div className="project__images-container" ref={containerRef}>
+        <a
+          href="https://github.com/AmulyaAT/iVoyant-Assignment-1-ecom-webpage-"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="project__item">
+            <img src={Ecompage} alt="E-commerce Project" className="project__images" />
+            <h3 className="project-title">E-COMMERENCE WEBPAGE</h3>
+          </div>
+        </a>
+        <a
+          href="https://github.com/AmulyaAT/Login_Signup_page"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="project__item">
+            <img src={LoginPage} alt="Login Page" className="project__images" />
+            <h3 className="project-title">LOGIN-SIGNUP PAGE</h3>
+          </div>
+        </a>
+        <a
+          href="https://github.com/AmulyaAT/Analysis-and-classification-of-COPD-using-Deep-Learning"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="project__item">
+            <img src={Copd} alt="COPD Analysis" className="project__images" />
+            <h3 className="project-title">ANALYSIS AND CLASSIFICATION OF COPD USING DEEP LEARNING</h3>
+          </div>
+        </a>
+        <a href="https://github.com/yourusername/Tradetrack" target="_blank" rel="noopener noreferrer">
+          <div className="project__item">
+            <img src={Tradetrack} alt="Trade Tracker" className="project__images" />
+            <h3 className="project-title">TRADE-TRACK</h3>
+          </div>
+        </a>
+        <a href="https://github.com/yourusername/todo" target="_blank" rel="noopener noreferrer">
+          <div className="project__item">
+            <img src={todo} alt="To-Do App" className="project__images" />
+            <h3 className="project-title">TO-DO APPLICATION</h3>
+          </div>
+        </a>
+      </div>
+    </div>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import "./_Contact.scss";
 import "./_Mediacontact.scss";
-
 const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -33,7 +32,7 @@ const Contact = () => {
       alert("There was an error submitting your form.");
     }
 
-    // Optional: Reset the form after submission
+    //Reset the form after submission
     event.target.reset();
   };
 

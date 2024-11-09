@@ -20,10 +20,10 @@
 
   .item {
     position: absolute;
-    top: calc(50% - 250px); // Adjusted for slightly smaller size
-    left: calc(50% - 175px); // Adjusted for slightly smaller size
-    width: 350px; // Reduced width for a clearer view of certificates
-    height: 450px; // Adjusted height
+    top: calc(50% - 250px);
+    left: calc(50% - 175px); 
+    width: 350px; 
+    height: 450px;
     background: $background-color;
     transition: 0.5s;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -32,7 +32,6 @@
     user-select: none;
     -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0002);
 
-    // Adjust transform and z-index for new sizes
     &:nth-child(1) {
       transform: translate3d(-300px, 0, 0) scale(0.85) rotateY(25deg);
       z-index: 1;
