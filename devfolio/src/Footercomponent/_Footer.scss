@@ -25,22 +25,22 @@
 
     &__thought-cloud {
       position: absolute;
-      top: -4rem; // Position the cloud above the logo
+      top: -8rem; // Position above the logo
       left: 50%;
       transform: translateX(-50%);
       background: $secondary-color;
       color: $white-color;
       padding: 0.5rem 1rem;
-      border-radius: 1.5rem;
+      border-radius: 2rem;
       font-size: 1rem;
-      max-width: 200px;
+      max-width: 1000px;
       text-align: center;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       opacity: 0;
       visibility: hidden;
       transition: opacity 0.3s ease;
 
-      // Comic-style thought cloud effect
+      
       &::before {
         content: "";
         position: absolute;
@@ -54,10 +54,11 @@
       }
     }
 
-    // Show thought cloud when logo container is hovered
+    
     &:hover .footer__logo-container__thought-cloud {
       opacity: 1;
       visibility: visible;
+
     }
   }
 

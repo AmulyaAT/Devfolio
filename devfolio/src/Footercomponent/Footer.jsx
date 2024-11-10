@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__logo-container">
         <img src={Footerlogo} alt="Footer Logo" className="footer__logo-container__logo" />
-        <div className="footer__logo-container__thought-cloud">Hi there!</div>
+        <div className="footer__logo-container__thought-cloud">Hi! <br/> Got a question? I've got answers!</div>
       </div>
       <div className="footer__icons">
         <a href="mailto:amulya.a.t007@gmail.com" target="_blank" rel="noopener noreferrer" className="footer__icons-link">
@@ -27,7 +27,7 @@ const Footer = () => {
         <a href="mailto:amulya.a.t007@gmail.com" className="footer__mail-link">amulya.a.t007@gmail.com</a>
       </div>
       <div className="footer__copy">
-        <p>&copy; 2024 Amulya AT</p>
+        <p>&copy; 2024 - Amulya AT</p>
       </div>
     </div>
   );
