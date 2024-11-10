@@ -4,13 +4,16 @@ import "./_Mediaheader.scss";
 import email from "./Icon/email.svg";
 import linkedin from "./Icon/linkedin.svg";
 import instagram from "./Icon/instagram.svg";
+import Logo from "./Icon/Logo.png";
 
 const Header = () => {
   return (
     <div>
       <header className="header-container">
         <div className="logo">
-          <a href="#main">Logo</a>
+          <a href="#main">
+            <img src={Logo} alt="Logo" />
+          </a>
         </div>
         <div className="header">
           <a href="#skills">Skills</a>
@@ -23,15 +26,15 @@ const Header = () => {
           <a href="mailto:amulya.a.t007@gmail.com" target="_blank" rel="noopener noreferrer">
             <img src={email} alt="Email" />
           </a>
-          <a href="https://www.linkedin.com/in/amulya-a-t-5b522a222?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADfrINkBbt02YZuQVfqMPWv9BVaqPks5cOw&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people%3BQBgSfjvBS1GlyAZ2CwhZoA%3D%3D" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/amulya-a-t-5b522a222" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="LinkedIn" />
           </a>
-          <a href="https://www.instagram.com/amulya_at/profilecard/?igsh=YnZxeTUxdm9iaGky" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/amulya_at/" target="_blank" rel="noopener noreferrer">
             <img src={instagram} alt="Instagram" />
           </a>
         </div>
       </header>
-      <hr style={{ border: "0.001rem solid #e03400" }} />
+      <hr className="header-line" />
     </div>
   );
 };
