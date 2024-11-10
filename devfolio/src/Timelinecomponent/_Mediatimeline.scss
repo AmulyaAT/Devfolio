@@ -1,182 +1,114 @@
-@import "../global.scss";
+@import "../global.scss"; 
 
-$red: red;
-$vertical: true;
-
-.timelinecontainer {
-  margin: 0 auto;
-  padding: 3rem;
-  font-size: 16px;
-  color: $main-font-color;
-  background-color: $white-color;
-  font-family: $secondary-font;
-
-  @media (max-width: 1200px) {
-    padding: 2rem;
-    font-size: 15px;
+@media (max-width: 768px) {
+  .timelinecontainer {
+    padding: 1rem; 
+    font-size: 14px; 
   }
 
-  @media (max-width: 992px) {
-    padding: 1.5rem;
-    font-size: 14px;
+  .timelinetitle {
+    font-size: 28px; 
+    text-align: center; 
+    margin-bottom: 10px; 
   }
 
-  @media (max-width: 768px) {
-    padding: 1rem;
-    font-size: 13px;
+  #timeline {
+    margin-left: 0; 
+    padding-left: 0;
   }
-
-  @media (max-width: 576px) {
-    padding: 0.5rem;
-    font-size: 12px;
-  }
-}
-
-.timelinetitle {
-  font-family: Unbounded, "Unbounded Placeholder", sans-serif;
-  font-size: 36px;
-  color: rgb(224, 52, 0);
-
-  @media (max-width: 768px) {
-    font-size: 28px;
-  }
-
-  @media (max-width: 576px) {
-    font-size: 24px;
-  }
-}
-
-
-#timeline {
-  list-style: none;
-  margin: 50px 0 30px 120px;
-  padding-left: 30px;
-  border-left: 5px solid $footer-color;
 
   li {
-    margin: 40px 0;
-    position: relative;
-
-    @media (max-width: 768px) {
-      margin: 30px 0;
-    }
-
-    @media (max-width: 576px) {
-      margin: 20px 0;
-    }
+    margin-bottom: 20px;
+    position: relative; 
   }
 
-  p {
-    margin: 0 0 15px;
-  }
-}
-
-.date {
-    .date {
-        top: 50%;
-        left: -158px; 
-        font-size: 0.95em; 
-        position: absolute;
-      
-        @media (max-width: 768px) {
-          left: -110px; 
-          font-size: 0.80em; 
-          margin-left: 10px; 
-        }
-      
-        @media (max-width: 576px) {
-          left: -60px; 
-          font-size: 0.70em; 
-          margin-left: 12px; 
-        }
-      }
-      
-}
-
-.circle {
-  width: 20px;
-  height: 20px;
-  background: $footer-color;
-  border-radius: 50%;
-  position: absolute;
-
-  @media (max-width: 768px) {
-    width: 18px;
-    height: 18px;
+  .date {
+    position: static; 
+    font-size: 1em; 
+    margin-bottom: 5px; 
   }
 
-  @media (max-width: 576px) {
-    width: 16px;
-    height: 16px;
-  }
-}
-
-.content {
-
-    max-height: 20px;
-  padding: 50px 20px 0;
-  border-color: transparent;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 0.5em;
-  position: relative;
-
-  &::before {
-    border-right-color: inherit;
-    border-width: 20px;
-    top: 50%;
-    margin-top: -20px;
+  .circle {
+    display: none; 
   }
 
-  &::after {
-    border-right-color: $footer-color;
-    border-width: 17px;
-    top: 50%;
-    margin-top: -17px;
-  }
-}
-
-label {
-  font-size: 1.3em;
-  position: absolute;
-  z-index: 100;
-  cursor: pointer;
-  top: 20px;
-  transition: transform 0.2s linear;
-
-  @media (max-width: 768px) {
-    font-size: 1.2em;
-  }
-
-  @media (max-width: 576px) {
-    font-size: 1em;
-  }
-}
-
-.radio {
-  display: none;
-
-  &:checked + .relative label {
-    cursor: auto;
-    transform: translateX(42px);
-  }
-
-  &:checked + .relative .circle {
-    background: $red;
-  }
-
-  &:checked ~ .content {
-    max-height: 180px;
-    border-color: $footer-color;
-    margin-right: 20px;
-    transform: translateX(20px);
-    transition: max-height 0.4s linear, border-color 0.5s linear,
-    transform 0.2s linear;
+  .content {
+    max-height: none; 
+    padding: 15px; 
+    border: 1px solid $footer-color; 
+    border-radius: 8px; 
 
     p {
-      max-height: 200px;
-      color: $footer-color;
-      transition: color 0.3s linear 0.3s;
+      color: $footer-color; 
+      word-wrap: break-word; 
     }
+  }
+
+  label {
+    font-size: 1.2em; 
+    position: static; 
+    margin-bottom: 10px; 
+  }
+
+  .radio {
+    display: none; 
+  }
+
+  .content {
+    transform: none;
+    max-height: none;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .timelinecontainer {
+    padding: 0.5rem; 
+    font-size: 12px; 
+  }
+
+  .timelinetitle {
+    font-size: 24px; 
+    text-align: center; 
+    margin-bottom: 10px;
+  }
+
+  #timeline {
+    margin-left: 0; 
+    padding-left: 0;
+  }
+
+  li {
+    margin-bottom: 15px; 
+  }
+
+  .date {
+    font-size: 0.9em; 
+    margin-bottom: 4px;
+  }
+
+  .circle {
+    display: none; 
+  }
+
+  .content {
+    max-height: none; 
+    padding: 10px; 
+    border: 1px solid $footer-color;
+    border-radius: 8px;
+
+    p {
+      color: $footer-color;
+      word-wrap: break-word; 
+    }
+  }
+
+  label {
+    font-size: 1.1em; 
+    margin-bottom: 8px; 
+  }
+
+  .radio {
+    display: none; 
   }
 }
