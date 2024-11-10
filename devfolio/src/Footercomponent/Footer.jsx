@@ -1,36 +1,36 @@
 import React from "react";
-import "./_Footer.scss"
-import "./_Mediafooter.scss";
-import email  from "./Icons/email.svg";
-import linkedin from "./Icons/linkedin.svg"
-import instagram from "./Icons/instagram.svg"
-const Footer=()=>{
-    return(
-        <div className="footer-container">
-           <div className="logos">
-           <a href="">
-                <img src=""/>
-                Amulya A T
-            </a>
-           </div>
-           <div className="icons">
-           <a href="mailto:amulya.a.t007@gmail.com" target="_blank" rel="noopener noreferrer">
-            <img src={email} alt="Email" />
-          </a>
-          <a href="https://www.linkedin.com/in/amulya-a-t-5b522a222?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADfrINkBbt02YZuQVfqMPWv9BVaqPks5cOw&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_people%3BQBgSfjvBS1GlyAZ2CwhZoA%3D%3D" target="_blank" rel="noopener noreferrer">
-            <img src={linkedin} alt= "Linked in"/>
-          </a>
-          <a href="https://www.instagram.com/amulya_at/profilecard/?igsh=YnZxeTUxdm9iaGky" target="_blank" rel="noopener noreferrer">
-            <img src={instagram} alt="Instagram"/>
-          </a>
-           </div>
-           <div className="mail">
-           <a href="mailto:amulya.a.t007@gmail.com">amulya.a.t007@gmail.com</a>
-           </div>
-           <div className="copy">
-           <p> Copywrite &copy; 2024 Amulya.AT</p>
-           </div>
-        </div>
-    )
-}
+import "./_Footer.scss";
+import email from "./Icons/email.svg";
+import linkedin from "./Icons/linkedin.svg";
+import instagram from "./Icons/instagram.svg";
+import Footerlogo from "./Icons/footerlogo.png";
+
+const Footer = () => {
+  return (
+    <div className="footer">
+      <div className="footer__logo-container">
+        <img src={Footerlogo} alt="Footer Logo" className="footer__logo-container__logo" />
+        <div className="footer__logo-container__thought-cloud">Hi there!</div>
+      </div>
+      <div className="footer__icons">
+        <a href="mailto:amulya.a.t007@gmail.com" target="_blank" rel="noopener noreferrer" className="footer__icons-link">
+          <img src={email} alt="Email" className="footer__icons__icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/amulya-a-t-5b522a222" target="_blank" rel="noopener noreferrer" className="footer__icons-link">
+          <img src={linkedin} alt="LinkedIn" className="footer__icons__icon" />
+        </a>
+        <a href="https://www.instagram.com/amulya_at/profilecard/" target="_blank" rel="noopener noreferrer" className="footer__icons-link">
+          <img src={instagram} alt="Instagram" className="footer__icons__icon" />
+        </a>
+      </div>
+      <div className="footer__mail">
+        <a href="mailto:amulya.a.t007@gmail.com" className="footer__mail-link">amulya.a.t007@gmail.com</a>
+      </div>
+      <div className="footer__copy">
+        <p>&copy; 2024 Amulya AT</p>
+      </div>
+    </div>
+  );
+};
+
 export default Footer;
