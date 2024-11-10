@@ -1,72 +1,24 @@
 @import "../global.scss"; 
 
-.main-container {
-    color: $main-font-color;
-    background-color: $background-color;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    user-select: none;
-    padding: 5rem;
-
-    @media (max-width: 768px) {
-        padding: 1rem;
-        font-size: 15px;
+/* Media Queries for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 1.5rem;
+        font-size: 10px;
     }
-}
 
-.name {
-    margin-top: 50px;
-    font-family: Unbounded, "Unbounded placeholder", sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: -1.5px;
-    line-height: 163.2px;
-    text-align: center;
-
-    @media (max-width: 768px) {
-        font-size: 48px;
+    .name {
+        font-size: 30px;
         line-height: 56px;
         margin-top: 20px;
     }
-}
 
-.para {
-    font-size: 1rem;
-    text-align: center;
-    font-family: $secondary-font;
-    font-weight: 600;
-    padding: 1rem;
-
-    @media (max-width: 768px) {
+    .para {
         font-size: 0.875rem;
         padding: 0 1rem;
     }
-}
 
-.resume_btn {
-    .download-resume-button {
-        font-family: $secondary-font;
-        display: inline-block;
-        margin-top: 20px;
-        padding: 10px 20px;
-        background-color: $footer-color;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 5px;
-        font-weight: bold;
-        text-align: center;
-        transition: background-color 0.3s ease;
-
-        &:hover {
-            background-color: darken($footer-color, 10%);
-            color: $secondary-color;
-        }
-    }
-
-    @media (max-width: 768px) {
+    .resume_btn {
         .download-resume-button {
             font-size: 1rem;
             padding: 8px 16px;
