@@ -25,7 +25,7 @@
 
     &__thought-cloud {
       position: absolute;
-      top: -8rem; // Position above the logo
+      top: -4.5rem; // Position above the logo
       left: 50%;
       transform: translateX(-50%);
       background: $secondary-color;
@@ -33,14 +33,14 @@
       padding: 0.5rem 1rem;
       border-radius: 2rem;
       font-size: 1rem;
-      max-width: 1000px;
+      width: 15.5rem;
+      max-width: 20rem;
       text-align: center;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       opacity: 0;
       visibility: hidden;
       transition: opacity 0.3s ease;
 
-      
       &::before {
         content: "";
         position: absolute;
@@ -54,11 +54,9 @@
       }
     }
 
-    
     &:hover .footer__logo-container__thought-cloud {
       opacity: 1;
       visibility: visible;
-
     }
   }
 
