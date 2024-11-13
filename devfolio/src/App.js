@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import "./App.css";
+import Loading from "./Loadingcomponent/Loading";
 const Footer = lazy(() => import("./Footercomponent/Footer"));
 const Header = lazy(() => import("./Headercomponent/Header"));
 const Main = lazy(() => import("./Maincomponent/Main"));
@@ -11,9 +12,8 @@ const Time = lazy(() => import("./Timelinecomponent/Timeline"));
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div><Loading/></div>}>
       <Header />
-
       <div>
         <div id="main">
           <Main />
