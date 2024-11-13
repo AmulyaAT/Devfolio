@@ -1,6 +1,7 @@
 import React from "react";
 import "../Maincomponent/_Main.scss";
 import "./_Mediamain.scss";
+import { ScrollIndicator } from "../ScrollIndicator/ScrollIndicator";
 
 const Main = () => {
   return (
@@ -39,6 +40,7 @@ const Main = () => {
           Download Resume
         </a>
       </div>
+      <ScrollIndicator/>
     </div>
   );
 };
