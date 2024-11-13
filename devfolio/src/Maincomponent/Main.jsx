@@ -1,7 +1,7 @@
 import React from "react";
 import "../Maincomponent/_Main.scss";
 import "./_Mediamain.scss";
-import { ScrollIndicator } from "../ScrollIndicator/ScrollIndicator";
+
 const Main = () => {
   return (
     <div className="main-container">
@@ -23,16 +23,25 @@ const Main = () => {
       <div className="resume_btn">
         <a
           href={`${process.env.PUBLIC_URL}/AMULYA_AT_Resume.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-resume-button"
+        >
+          View Resume
+        </a>
+      </div>
+      <div className="resume_btn">
+        <a
+          href={`${process.env.PUBLIC_URL}/AMULYA_AT_Resume.pdf`}
           download
           className="download-resume-button"
         >
           Download Resume
         </a>
       </div>
-      <ScrollIndicator/>
     </div>
-    
   );
 };
 
 export default Main;
+

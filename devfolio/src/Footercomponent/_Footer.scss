@@ -18,14 +18,14 @@
     margin-bottom: 1rem;
 
     &__logo {
-      width: 7rem;
+      width: 6rem;//logo width
       height: auto;
       z-index: 1;
     }
 
     &__thought-cloud {
       position: absolute;
-      top: -4.5rem; // Position above the logo
+      top: -4.8rem; // Position above the logo
       left: 50%;
       transform: translateX(-50%);
       background: $secondary-color;
