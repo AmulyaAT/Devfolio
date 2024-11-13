@@ -11,7 +11,7 @@ import Oasis from "./Certificates/certi1.jpeg";
 import Paypal from "./Certificates/certi7.jpeg";
 import Udyamsheel from "./Certificates/certi8.jpeg";
 
-export const Certificate = () => {
+ const Certificate = () => {
   const handleNext = () => {
     const items = document.querySelectorAll(".item");
     if (items.length > 0) {
@@ -64,3 +64,4 @@ export const Certificate = () => {
     </div>
   );
 };
+export default Certificate

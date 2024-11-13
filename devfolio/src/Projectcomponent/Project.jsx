@@ -8,7 +8,7 @@ import Tradetrack from "./Project-images/Tradetrack.svg";
 import LoginPage from "./Project-images/LoginPage.svg";
 import todo from "./Project-images/todo.svg";
 
-export const Project = () => {
+ const Project = () => {
   // Create a reference for the container
   const containerRef = useRef(null);
 
@@ -89,3 +89,4 @@ export const Project = () => {
     </div>
   );
 };
+export default Project;

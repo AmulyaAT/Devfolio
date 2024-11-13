@@ -1,16 +1,17 @@
+import React, { lazy, Suspense } from 'react';
 import './App.css';
-import Footer from './Footercomponent/Footer';
-import Header from './Headercomponent/Header';
-import Main from './Maincomponent/Main';
-import {Project} from './Projectcomponent/Project';
-import Skills from './Skillscomponent/Skills';
-import {Certificate} from './Certificationscomponent/Certificate';
-import Contact from './Contactformcomponent/Contactme';
-import Time from './Timelinecomponent/Timeline';
+const Footer = lazy(() => import('./Footercomponent/Footer'));
+const Header = lazy(() => import('./Headercomponent/Header'));
+const Main = lazy(() => import('./Maincomponent/Main'));
+const Project = lazy(() => import('./Projectcomponent/Project'));
+const Skills = lazy(() => import('./Skillscomponent/Skills'));
+const Certificate = lazy(() => import('./Certificationscomponent/Certificate'));
+const Contact = lazy(() => import('./Contactformcomponent/Contactme'));
+const Time = lazy(() => import('./Timelinecomponent/Timeline'));
 
 function App() {
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <Header />
       <main>
         <div id="main">
@@ -33,7 +34,7 @@ function App() {
         </div>
       </main>
       <Footer />
-    </>
+    </Suspense>
   );
 }
 
