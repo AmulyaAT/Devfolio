@@ -62,8 +62,10 @@
   }
 
   &__line {
-    border: 0.001rem solid #e03400;
+    border: 0.001rem solid $main-font-color;
     margin-top: -1.5rem;
     width: 100%;
   }
 }
+
+
