@@ -73,13 +73,13 @@ import todo from "./Project-images/todo.svg";
             <h3 className="project-title">ANALYSIS AND CLASSIFICATION OF COPD USING DEEP LEARNING</h3>
           </div>
         </a>
-        <a href="https://github.com/yourusername/Tradetrack" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/manjunath-dalavaye/Trade_track" target="_blank" rel="noopener noreferrer">
           <div className="project__item">
             <img src={Tradetrack} alt="Trade Tracker" className="project__images" />
             <h3 className="project-title">TRADE-TRACK</h3>
           </div>
         </a>
-        <a href="https://github.com/yourusername/todo" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/AmulyaAT/TODO" target="_blank" rel="noopener noreferrer">
           <div className="project__item">
             <img src={todo} alt="To-Do App" className="project__images" />
             <h3 className="project-title">TO-DO APPLICATION</h3>
