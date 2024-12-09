@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./_Project.scss";
 import "./_MediaProject.scss";
 
-import Copd from "./Project-images/Copd.svg";
+import Copd from "./Project-images/Copd.png";
 import Ecompage from "./Project-images/Ecompage.svg";
 import Tradetrack from "./Project-images/Tradetrack.svg";
 import LoginPage from "./Project-images/LoginPage.svg";
