@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AmulyaAT/Devfolio/static/css/main.44449b33.css",
-    "main.js": "/AmulyaAT/Devfolio/static/js/main.48acefc3.js",
+    "main.css": "/AmulyaAT/Devfolio/static/css/main.34977d41.css",
+    "main.js": "/AmulyaAT/Devfolio/static/js/main.b8d7b61e.js",
     "static/css/492.2dbad4e8.chunk.css": "/AmulyaAT/Devfolio/static/css/492.2dbad4e8.chunk.css",
     "static/js/492.877eb00c.chunk.js": "/AmulyaAT/Devfolio/static/js/492.877eb00c.chunk.js",
     "static/css/649.bcc5bb82.chunk.css": "/AmulyaAT/Devfolio/static/css/649.bcc5bb82.chunk.css",
     "static/js/649.19fc406e.chunk.js": "/AmulyaAT/Devfolio/static/js/649.19fc406e.chunk.js",
     "static/css/169.1a483fa4.chunk.css": "/AmulyaAT/Devfolio/static/css/169.1a483fa4.chunk.css",
     "static/js/169.6c2806c2.chunk.js": "/AmulyaAT/Devfolio/static/js/169.6c2806c2.chunk.js",
-    "static/css/162.837541be.chunk.css": "/AmulyaAT/Devfolio/static/css/162.837541be.chunk.css",
-    "static/js/162.e5bea56e.chunk.js": "/AmulyaAT/Devfolio/static/js/162.e5bea56e.chunk.js",
+    "static/css/676.67c3f1b5.chunk.css": "/AmulyaAT/Devfolio/static/css/676.67c3f1b5.chunk.css",
+    "static/js/676.30767e51.chunk.js": "/AmulyaAT/Devfolio/static/js/676.30767e51.chunk.js",
     "static/css/546.e47ebb81.chunk.css": "/AmulyaAT/Devfolio/static/css/546.e47ebb81.chunk.css",
     "static/js/546.9e284316.chunk.js": "/AmulyaAT/Devfolio/static/js/546.9e284316.chunk.js",
     "static/css/327.56e7ef7d.chunk.css": "/AmulyaAT/Devfolio/static/css/327.56e7ef7d.chunk.css",
@@ -20,7 +20,7 @@
     "static/js/748.f69445fa.chunk.js": "/AmulyaAT/Devfolio/static/js/748.f69445fa.chunk.js",
     "static/js/453.dc2e37e6.chunk.js": "/AmulyaAT/Devfolio/static/js/453.dc2e37e6.chunk.js",
     "static/js/51.72a80099.chunk.js": "/AmulyaAT/Devfolio/static/js/51.72a80099.chunk.js",
-    "static/media/Copd.svg": "/AmulyaAT/Devfolio/static/media/Copd.2ab38aa6d032530f83479c24a9f99356.svg",
+    "static/media/Copd.png": "/AmulyaAT/Devfolio/static/media/Copd.41af920008d5febce276.png",
     "static/media/certi1.jpeg": "/AmulyaAT/Devfolio/static/media/certi1.cd06551b8e7c59c68306.jpeg",
     "static/media/Ecompage.svg": "/AmulyaAT/Devfolio/static/media/Ecompage.3bd2922ddbd71bd6621c1dc47fea4b4b.svg",
     "static/media/certi7.jpeg": "/AmulyaAT/Devfolio/static/media/certi7.66c8b1bcb96ad680bc0a.jpeg",
@@ -52,16 +52,16 @@
     "static/media/javascript.svg": "/AmulyaAT/Devfolio/static/media/javascript.c2d463fde72a01350f2e8cdd7797b7ba.svg",
     "static/media/tailwind.svg": "/AmulyaAT/Devfolio/static/media/tailwind.03fdecbfd26561a058e76b84d95184a7.svg",
     "static/media/html.svg": "/AmulyaAT/Devfolio/static/media/html.bfc29cc664956a7748f9ee78fa82ec7b.svg",
-    "main.44449b33.css.map": "/AmulyaAT/Devfolio/static/css/main.44449b33.css.map",
-    "main.48acefc3.js.map": "/AmulyaAT/Devfolio/static/js/main.48acefc3.js.map",
+    "main.34977d41.css.map": "/AmulyaAT/Devfolio/static/css/main.34977d41.css.map",
+    "main.b8d7b61e.js.map": "/AmulyaAT/Devfolio/static/js/main.b8d7b61e.js.map",
     "492.2dbad4e8.chunk.css.map": "/AmulyaAT/Devfolio/static/css/492.2dbad4e8.chunk.css.map",
     "492.877eb00c.chunk.js.map": "/AmulyaAT/Devfolio/static/js/492.877eb00c.chunk.js.map",
     "649.bcc5bb82.chunk.css.map": "/AmulyaAT/Devfolio/static/css/649.bcc5bb82.chunk.css.map",
     "649.19fc406e.chunk.js.map": "/AmulyaAT/Devfolio/static/js/649.19fc406e.chunk.js.map",
     "169.1a483fa4.chunk.css.map": "/AmulyaAT/Devfolio/static/css/169.1a483fa4.chunk.css.map",
     "169.6c2806c2.chunk.js.map": "/AmulyaAT/Devfolio/static/js/169.6c2806c2.chunk.js.map",
-    "162.837541be.chunk.css.map": "/AmulyaAT/Devfolio/static/css/162.837541be.chunk.css.map",
-    "162.e5bea56e.chunk.js.map": "/AmulyaAT/Devfolio/static/js/162.e5bea56e.chunk.js.map",
+    "676.67c3f1b5.chunk.css.map": "/AmulyaAT/Devfolio/static/css/676.67c3f1b5.chunk.css.map",
+    "676.30767e51.chunk.js.map": "/AmulyaAT/Devfolio/static/js/676.30767e51.chunk.js.map",
     "546.e47ebb81.chunk.css.map": "/AmulyaAT/Devfolio/static/css/546.e47ebb81.chunk.css.map",
     "546.9e284316.chunk.js.map": "/AmulyaAT/Devfolio/static/js/546.9e284316.chunk.js.map",
     "327.56e7ef7d.chunk.css.map": "/AmulyaAT/Devfolio/static/css/327.56e7ef7d.chunk.css.map",
@@ -74,7 +74,7 @@
     "51.72a80099.chunk.js.map": "/AmulyaAT/Devfolio/static/js/51.72a80099.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44449b33.css",
-    "static/js/main.48acefc3.js"
+    "static/css/main.34977d41.css",
+    "static/js/main.b8d7b61e.js"
   ]
 }
