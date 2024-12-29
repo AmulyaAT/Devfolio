@@ -23,7 +23,7 @@ const Main = () => {
       </div>
       <div className="resume_btn">
         <a
-          href={`${process.env.PUBLIC_URL}/AMULYA_AT_Resume.pdf`}
+          href={`${process.env.PUBLIC_URL}/AmulyaAT-Resume.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="view-resume-button"
@@ -33,7 +33,7 @@ const Main = () => {
       </div>
       <div className="resume_btn">
         <a
-          href={`${process.env.PUBLIC_URL}/AMULYA_AT_Resume.pdf`}
+          href={`${process.env.PUBLIC_URL}/AmulyaAT-Resume.pdf`}
           download
           className="download-resume-button"
         >
